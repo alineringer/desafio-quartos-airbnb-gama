@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+
+#image {
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+    
+}
+
+#header {
+    margin-top: 1.56rem;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+   
+}
+
+.header__navbar {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+    align-items:stretch;
+}
+
+.navbar__item{
+    align-self: stretch;
+    padding-right: 2vw;
+}
+
+.navbar__item a {
+    color: #000;
+    font-weight: 500;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.primary-button {
+    border-radius: 21px;
+    margin-bottom: 21px;
+    border: 1px solid rgb(221, 221, 221);
+    display: inline-flex;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2.5px 5px 4px #888888;
+}
+
+.navbar__item a:hover {
+    background-color: #f9f9f9;
+    
+}
+
+li {
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.anuncios {
+    margin-top: 100px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch; 
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.anuncio-col {
+    width: 23%;
+    padding: 0 10px;
+    margin-bottom: 25px;
+    
+}
+
+.anuncio-col > .imganuncio {
+    width: 100%;
+    height: 200px;
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    
+}
+
+.anuncio-col > .description{
+    margin: 0;
+    font-weight: 100;
+    font-size: 1.3em;
+    padding: 2px 0;
+}
+
+.anuncio-col > .typeanuncio{
+    margin: 0;
+    padding: 5px 0;
+}
+
+.anuncio-col > .price{
+    margin: 0;
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+    body{
+        font-size: 20px;
+        padding: 0 2.4em 0 2.4em;
+        
+    }
+
+.container {
+       margin: auto;
+}
+
+.navbar__item a {
+        padding: 10px;
+    }
+
+.header__navbar {
+        padding: 20px;
+        display: inline-block;
+    }
+
+.anuncio-col > .imganuncio {
+        width: 500px;
+        height:auto;
+        
+    }
+.primary-button {
+        padding: 10px;
+    }
+
+.anuncio-col {
+        width:100%;
+        height:auto;
+    
+}
+
+}
